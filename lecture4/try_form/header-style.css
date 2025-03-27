@@ -12,7 +12,7 @@
 }
 
 .img{
-    background-image: url('./assets/logo.png');
+    background-image: url(./assets/logo.png);
     height: 80px;
     width: 100px;
     background-size: contain;
