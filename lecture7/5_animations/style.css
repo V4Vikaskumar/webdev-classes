@@ -9,9 +9,11 @@
     height: 100%;
     background-color: aquamarine;
     animation-name: moving-loader;
-    animation-duration: 10s;
+    /* animation-duration: 10s; */
+    animation-duration: 5s;
     animation-iteration-count: 1;
     animation-fill-mode: none;
+    /* animation-iteration-count: infinite; */
 }
 
 @keyframes moving-loader{
