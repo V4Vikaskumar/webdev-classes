@@ -1,7 +1,7 @@
 function f1(cb){
     setTimeout(()=>{
         console.log("Maggi aa gyi ghar pe!")
-        cb(f3)
+        cb()
     },5000)
 }
 
@@ -19,10 +19,8 @@ function f3(){
 }
 
 
-f1(f2)
-
-// function add(a,b){
-//     return a+b;
-// }
-
-// console.log(add(1,2))
+f1(()=>{
+    f2(()=>{
+        f3()
+    })
+})
