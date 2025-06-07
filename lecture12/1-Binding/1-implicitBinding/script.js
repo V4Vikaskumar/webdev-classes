@@ -12,9 +12,9 @@ let person={
     }
 }
 
-person.printPersonDetails();
-// function printGlobal(){
-//    console.log(this) 
-// }
+// person.printPersonDetails();
+function printGlobal(){
+   console.log(this) 
+}
 
-// printGlobal()
+printGlobal()

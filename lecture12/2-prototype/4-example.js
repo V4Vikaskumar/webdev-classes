@@ -15,18 +15,18 @@ function vehicle(comapnay,year){
 }
 
 function car(name,price,comapany,year){
-    vehicle(this,comapany,year)
+    vehicle.call(this,comapany,year)
     this.price=price
     this.name=name
 }
 
 
 function bike(name,price,company,year){
-    vehicle(this,company,year)
+    vehicle.call(this,company,year)
     this.name=name
     this.price=price;
 }
 
 let bike1= new bike('classic',200000,'royal enfield',2008)
-// bike1.details()
+bike1.details()
 console.log(bike1)

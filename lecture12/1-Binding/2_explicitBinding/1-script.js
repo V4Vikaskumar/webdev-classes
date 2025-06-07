@@ -51,12 +51,14 @@ let p2={
 // apply has same functionality as call except here parameters are enclosed in an array
 //printPersonalDetails.apply(p2,["Delhi","India"]);
 
-let f1 = printPersonalDetails.bind(p1,"Delhi","India"); // This Never Modifyed
-let f2 = printPersonalDetails.bind(p2,"Delhi","India");
+// let f1 = printPersonalDetails.bind(p1,"Delhi","India"); // This Never Modifyed
+// let f2 = printPersonalDetails.bind(p2,"Delhi","India");
 
 // f1();
 // f1();
 
-f2();
-f2();
-f2();
+// f2();
+// f2();
+// f2();
+
+printPersonalDetails.call("Delhi","India");

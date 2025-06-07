@@ -10,4 +10,5 @@ let p1 = new person('pratham',19,'BVP');
 
 let p2 = new person('aryan',18,'MAIT');
 
-console.log(p1)
+// console.log(p1)
+console.log(new person('pratham',21,'BVP'))

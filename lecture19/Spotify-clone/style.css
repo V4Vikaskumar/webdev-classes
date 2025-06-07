@@ -1,0 +1,91 @@
+.first{
+    background-color: black;
+    height: 5vh;
+}
+#spotify-logo{
+    width: 71.5px;
+    height: 22.2px;
+    margin-top:5px;
+    margin-left: 11px;
+}
+.sec{
+    margin: 3vh auto;
+    height: 76vh;
+    width: 145vb;
+    background-color: black;
+    border-radius: 11px;
+    display: flex;
+    justify-content: space-between;
+}
+.third{
+    background-color: black;
+    height: 11vh;
+}
+.left, .right{
+    width: 49.9%;
+    /* border: 1px solid white; */
+}
+#font-h2{
+    text-align: center;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.songs{
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+    border-radius: 25px;
+    width: 80%;
+    margin: 6px auto;
+
+}
+.song-logo, .play-button{
+    height: 22px;
+    width: 22px;
+    border-radius: 15px;
+    margin: auto;
+}
+.logo{
+    display: flex;
+    justify-items: center;
+    justify-content: center;
+    margin-left: 11px;
+}
+.play-song{
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    margin-right: 11px;
+}
+.play-button{
+    height: 12px;
+    width: 12px;
+}
+
+.right{
+    display: flex;
+    justify-content: center;
+}
+.third{
+    display: grid;
+    justify-items: start;
+}
+span{
+    color: white;
+    margin:auto;
+    font-size: large;
+}
+audio {
+    width: 100%;
+    /* background-color: #000000; */
+    border-radius: 15px;
+    height: 35px;
+    margin-top: auto;
+}
+
+/* audio::-webkit-media-controls-panel {
+    background: #000000; Media control background
+    color: white;
+    place-content: unset;
+    color: aliceblue;
+} */
